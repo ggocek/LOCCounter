@@ -1,0 +1,31 @@
+﻿LOC Counter, copyright (c) 2024, Gary Gocek
+All rights reserved.
+Count lines of code via a graphical user interface or the command line.
+
+If either programs fails to start, it's probably because the EXE can't find the
+DLL or config file.
+
+LOCCounter.exe, Sloc.dll and LOCCounter.exe.config should all be in the same
+folder.
+
+LOCCounterStd.exe, Sloc.dll and LOCCounterStd.exe.config should all be in the
+same folder.
+
+These files can be placed together in one folder (Sloc.dll is the same for both
+programs).
+
+Users may edit the config files as needed. The programs have no option to
+restore the original settings, but you can get to this free and open-source
+software via https://www.gocek.org/software/.
+
+No "installation" is necessary - just run the EXEs. No registry keys are used.
+LOCCounter.exe remembers the window size and location. The operating system
+modifies a user.config file to support this, depending on the OS.
+
+Acknowledgments:
+Original concepts: Levent Camlibel, 2001-07-26.
+.NET modifications, displaying file type icons: Patrick Wright (patrick_d_wright@hotmail.com).
+Standalone Windows app that accounts for C style comments and empty lines: Trent Dinn (trentdinn@hotmail.com).
+
+Thanks for investigating LOCCounter,
+Gary Gocek, https://gary.gocek.org

@@ -1,0 +1,561 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOCCounter</name>
+    </assembly>
+    <members>
+        <member name="F:LOCCounter.AboutLocCounter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.AboutLocCounter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.AboutLocCounter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LOCCounter.ExtensionsForm">
+            <summary>
+            A form for choosing the files extensions to consider.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.#ctor(System.Drawing.Point,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="callerLocation">The top-left corner of the button that opened this form
+            in scsreen coordinates.</param>
+            <param name="exts">Or-bar delimited extensions</param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.LoadStrings">
+            <summary>
+            Load the strings for the current culture
+            </summary>
+        </member>
+        <member name="P:LOCCounter.ExtensionsForm.ExtList">
+            <summary>
+            Get the list of extensions chosen by the user. Open the form as a modal dialog,
+            and this property will be set when the dialog closes.
+            Empty if the user canceled the extensions dialog.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.Apply">
+            <summary>
+            Check the state of each checkbox and construct a string representing the chosen extensions.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.ExtensionsForm.DefaultCheckboxes">
+            <summary>
+            Get the list of default extension checkboxes, not including the custom checkboxes.
+            The tag of each checkbox contains the associated extension.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.ExtensionsForm.CustomCheckboxes">
+            <summary>
+            Get the list of customizable extension checkboxes, not including the default checkboxes.
+            The tag of each checkbox contains the associated extension.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.ExtensionsForm.CustomPanels">
+            <summary>
+            Get the list of panels contaning customizable extension checkboxes.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.ExtensionsForm_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Move the form to a spot relative to the owner.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.applyButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Save the checked boxes and return.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.cancelButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Return with an empty selection list.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.selectAllButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Check all the default checkboxes and also the custom checkboxes that have text.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.deselectAllButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Uncheck all the checkboxes.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:LOCCounter.ExtensionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOCCounter.ExtensionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LOCCounter.Help.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.Help.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOCCounter.Help.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LOCCounter.LOCCountForm">
+            <summary>
+            A form for starting the LOC counting program.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.LoadImageList">
+            <summary>
+            Load file type icons from the operating system.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.LOCCountForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Set the window location and size when opening
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.LOCCountForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Save the window location and size when closing
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.LoadStrings">
+            <summary>
+            Load the strings for the current culture
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.LoadExtensionsTextBox">
+            <summary>
+            Put the extensions form choices (or a default) into the textbox on the main form.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.CreateListViewItem(Sloc.SlocFileReport)">
+            <summary>
+            Create an item to be inserted as a row of the list view.
+            </summary>
+            <param name="fileR">File info</param>
+            <returns>The item to insert</returns>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.btnCountNumLines_Click(System.Object,System.EventArgs)">
+            <summary>
+            Click handler for the button to count the lines in the files.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.AsyncWithProgressBar">
+            <summary>
+            Invoke the asynchronous worker method to count the lines and diddle the progress bar while waiting.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.backgroundWorkerCountLines_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Asynchronously count the lines in all the files.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.cancelButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Attempt to stop the counting process.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.listViewFiles_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+            <summary>
+            Click handler for when the user clicks on a listview column, to sort by that column.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.AlternatingItemBackColor">
+            <summary>
+            Recolor the background of the items
+            </summary>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.openSelectionInNotepadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Determine the first selected file and open it in Notepad.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.totalSLOCToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Sum the SLOC for the selected items and show it in a popup.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.browseButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Browse for a folder
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exit the app
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Show an About box
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.extensionsButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Show the form to manage extensions.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:LOCCounter.LOCCountForm.contentsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Show help info
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:LOCCounter.LOCCountForm.ListViewColumnSort">
+            <summary>
+            A class for sorting the list of files
+            </summary>
+        </member>
+        <member name="T:LOCCounter.VersionInfo">
+            <summary>
+            A class for providing version info.
+            </summary>
+        </member>
+        <member name="M:LOCCounter.VersionInfo.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyVersionInfo">
+            <summary>
+            Geta friendly string indicating the version.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyCopyrightInfo">
+            <summary>
+            Geta friendly string indicating the version.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyCompanyInfo">
+            <summary>
+            Geta friendly string indicating the version.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyTitleInfo">
+            <summary>
+            Geta friendly string indicating the title.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyProductInfo">
+            <summary>
+            Geta friendly string indicating the product.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.VersionInfo.FriendlyDescriptionInfo">
+            <summary>
+            Geta friendly string indicating the description.
+            </summary>
+        </member>
+        <member name="T:LOCCounter.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:LOCCounter.Resources.Strings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resAbout">
+            <summary>
+              Looks up a localized string similar to &amp;About.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resAddRemoveExt">
+            <summary>
+              Looks up a localized string similar to Add and remove file extensions....
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resApply">
+            <summary>
+              Looks up a localized string similar to Apply.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resBlank">
+            <summary>
+              Looks up a localized string similar to Blank.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resBrowse">
+            <summary>
+              Looks up a localized string similar to Browse.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resBrowseElipsis">
+            <summary>
+              Looks up a localized string similar to &amp;Browse....
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resCancel">
+            <summary>
+              Looks up a localized string similar to Cancel.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resComments">
+            <summary>
+              Looks up a localized string similar to Comments.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resContents">
+            <summary>
+              Looks up a localized string similar to &amp;Contents.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resCountFolder">
+            <summary>
+              Looks up a localized string similar to Count LOC in and under this folder:.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resCountLines">
+            <summary>
+              Looks up a localized string similar to Count Lines.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resCountLOC">
+            <summary>
+              Looks up a localized string similar to &amp;Count Lines.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resDirectory">
+            <summary>
+              Looks up a localized string similar to Directory.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resExit">
+            <summary>
+              Looks up a localized string similar to E&amp;xit.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resExtensions">
+            <summary>
+              Looks up a localized string similar to Extensions.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resExtFormDeselectAll">
+            <summary>
+              Looks up a localized string similar to Deselect All.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resExtFormHeader">
+            <summary>
+              Looks up a localized string similar to File extensions to be processed:.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resExtFormSelectAll">
+            <summary>
+              Looks up a localized string similar to Select All.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resFile">
+            <summary>
+              Looks up a localized string similar to &amp;File.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resFileName">
+            <summary>
+              Looks up a localized string similar to File Name.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resFileType">
+            <summary>
+              Looks up a localized string similar to File Type.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp">
+            <summary>
+              Looks up a localized string similar to &amp;Help.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp00">
+            <summary>
+              Looks up a localized string similar to LOCCounter.exe, Sloc.dll and LOCCounter.exe.config should all be in the same folder..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp01">
+            <summary>
+              Looks up a localized string similar to A blank line contains only white space. A comment line begins with a comment delimiter or is a line between comment delimiters (according to the file extension as defined in CommentDelimiters.xml). A line that begins as a comment but contains code is considered to be a comment, e.g.,.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp02">
+            <summary>
+              Looks up a localized string similar to /* cmnt */ x = 1;.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp03">
+            <summary>
+              Looks up a localized string similar to A line that begins with code but contains a comment is considered to be code. Lines that are not blank and not commented are considered Source Lines of Code (SLOC). A line that begins with code and then (on the same line) starts (but does not terminate) a multi-line comment will cause incorrect results, e.g.,.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp04">
+            <summary>
+              Looks up a localized string similar to x = 1; /* Start comment.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp05">
+            <summary>
+              Looks up a localized string similar to    this counted as code because previous line starts with code..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp06">
+            <summary>
+              Looks up a localized string similar to This program first collects the list of files in and under a root folder with any extension in the selectable list. LOCCounter.exe.config may be modified to handle more file types. For unknown file types, the program assumes that comments are delimited as with the C programming language (//, /*, */)..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp07">
+            <summary>
+              Looks up a localized string similar to HTML files may use comments to hide embedded javascript from non-compliant browsers. Those script lines will be treated as comments..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp08">
+            <summary>
+              Looks up a localized string similar to Performance can be slow for files with tens of thousands of lines, so if you have folders full of huge XML data files, you could see long execution times. Try removing some of the file extensions from the list. The Cancel button is generally ineffective while the program first begins to collect the list of files. If your source tree is very large, the collection process can take a while..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp09">
+            <summary>
+              Looks up a localized string similar to Once a directory has been counted, a file can be opened in Notepad by clicking with the right mouse button..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp10">
+            <summary>
+              Looks up a localized string similar to To view the subtotals for a group of files, select any items in the list with the left mouse button, then use the right mouse button with the menu command. To view the subtotals for an extension, first sort the File Type column to make it easy to select the files. Use CTRL-C to copy the contents of the popup window to the clipboard..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp11">
+            <summary>
+              Looks up a localized string similar to A &apos;feature&apos; of Windows is that files with extensions longer than 3 characters have a short 8.3 name with an extension that has three characters. For example, when processing HTM files, HTML files may also be processed. This program does not correct for that..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resHelp12">
+            <summary>
+              Looks up a localized string similar to Use &apos;LOCCounterStd.exe /?&apos; at the command line to see command line options..
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resLines">
+            <summary>
+              Looks up a localized string similar to Lines.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resSourceLOC">
+            <summary>
+              Looks up a localized string similar to Source LOC.
+            </summary>
+        </member>
+        <member name="P:LOCCounter.Resources.Strings.resUseStd">
+            <summary>
+              Looks up a localized string similar to Use   LOCCounterStd.exe   to send output to a file..
+            </summary>
+        </member>
+    </members>
+</doc>
