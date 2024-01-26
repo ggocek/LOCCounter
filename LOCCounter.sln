@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOCCounter", "LOCCounter\LOCCounter.csproj", "{80BD6E88-5287-426C-A084-18C126097E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloc", "Sloc\Sloc.csproj", "{E5B825BB-9FBF-44EB-A422-5A98FAB15918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOCCounterStd", "LOCCounterStd\LOCCounterStd.csproj", "{FA53808C-9682-46E1-9414-8A4111D11F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80BD6E88-5287-426C-A084-18C126097E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BD6E88-5287-426C-A084-18C126097E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BD6E88-5287-426C-A084-18C126097E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BD6E88-5287-426C-A084-18C126097E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B825BB-9FBF-44EB-A422-5A98FAB15918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B825BB-9FBF-44EB-A422-5A98FAB15918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B825BB-9FBF-44EB-A422-5A98FAB15918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B825BB-9FBF-44EB-A422-5A98FAB15918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA53808C-9682-46E1-9414-8A4111D11F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA53808C-9682-46E1-9414-8A4111D11F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA53808C-9682-46E1-9414-8A4111D11F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA53808C-9682-46E1-9414-8A4111D11F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2040CF60-CCB6-4BFE-BBC9-FBA69CF99A29}
+	EndGlobalSection
+EndGlobal
