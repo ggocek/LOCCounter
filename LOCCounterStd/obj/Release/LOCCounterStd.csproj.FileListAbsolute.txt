@@ -1,0 +1,45 @@
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe.config
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.xml
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\es\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\fr\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\obj\Release\ResolveAssemblyReference.cache
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\license.txt
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\readme.txt
+F:\z-vis-stud-projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.xml
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\license.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\readme.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe.config
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.xml
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\Sloc.xml
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\es\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\bin\Release\fr\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\license.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\readme.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe.config
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.xml
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\LOCCounterStd.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\Sloc.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\Sloc.xml
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\es\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\fr\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.csproj.AssemblyReference.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.csproj.CoreCompileInputs.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.csproj.CopyComplete
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\obj\Release\LOCCounterStd.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounterStd\bin\Release\gpl.txt

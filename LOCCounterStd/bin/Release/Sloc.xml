@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sloc</name>
+    </assembly>
+    <members>
+        <member name="T:Sloc.CommentDelimiters">
+            <summary>
+            A class for providing the delimiters of comment lines for different types of files.
+            TODO: make it possible to supply additional extensions and comment delimiters
+            without having to change the code. Could be args of the constructor, but probably should
+            be some sort of input file, which probably should be an XML file.
+            </summary>
+            <exception cref="T:System.ArgumentException">If the XML file is badly formed.</exception>
+        </member>
+        <member name="T:Sloc.CommentDelimiters.CommentState">
+            <summary>
+            Describes the state of a comment for a line in a file.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentState.None">
+            <summary>
+            The state was not previously in a multi-line comment,
+            and this line is not a comment. The line is either blank
+            or a source line of code.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentState.StartedAndFinished">
+            <summary>
+            This line is a single comment line.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentState.Started">
+            <summary>
+            This line starts and does not end a multi-line comment block.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentState.Continuing">
+            <summary>
+            The previous state was Started or Continuing and this line is within
+            a multi-line comment and does not end the multi-line comment.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentState.Finished">
+            <summary>
+            The previous state was Started or Continuing, and this line is a comment line,
+            and this line ends a multi-line comment.
+            </summary>
+        </member>
+        <member name="T:Sloc.CommentDelimiters.CommentStateInfo">
+            <summary>
+            Describes the state of a comment line and the multi-line closing delimiter, if any.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentStateInfo.state">
+            <summary>
+            The comment state of a line in a file.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentStateInfo.delimEnd">
+            <summary>
+            If the comment state is Started or Continuing, this is the delimiter to look for
+            to close the multi-line comment. Otherwise undefined.
+            </summary>
+        </member>
+        <member name="T:Sloc.CommentDelimiters.ExtensionDelimiters">
+            <summary>
+            For any extension, there will be a list of these to describe ways
+            in which comments can be delimited.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.ExtensionDelimiters.isWrapping">
+            <summary>
+            True if the delimiters mark the start and end of a comment block.
+            False if only delimStart is used to mark a short comment.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.ExtensionDelimiters.delimStart">
+            <summary>
+            The start of the comment
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.ExtensionDelimiters.delimEnd">
+            <summary>
+            The end of a comment block
+            </summary>
+        </member>
+        <member name="M:Sloc.CommentDelimiters.ExtensionDelimiters.#ctor(System.Boolean,System.String,System.String)">
+            <summary>
+            Construct an instance with the provided values
+            </summary>
+            <param name="isWrap">True if the delimiters start and end a comment block,
+            false if a comment is prefixed by dlimStart</param>
+            <param name="dlimStart">The start of a comment</param>
+            <param name="dlimEnd">The end of a comment block, ignored when isWrap is false.</param>
+        </member>
+        <member name="T:Sloc.CommentDelimiters.CommentDescriptors">
+            <summary>
+            For all known files types, there is a descriptor.
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentDescriptors.fileExtension">
+            <summary>
+            The extension for the file whose comment delimiters are described
+            </summary>
+        </member>
+        <member name="F:Sloc.CommentDelimiters.CommentDescriptors.extDelims">
+            <summary>
+            The list of delimiters
+            </summary>
+        </member>
+        <member name="M:Sloc.CommentDelimiters.CommentDescriptors.#ctor(System.String,Sloc.CommentDelimiters.ExtensionDelimiters[])">
+            <summary>
+            Construct an instance with the provided values
+            </summary>
+            <param name="fileExt">A file extension for which the comment delimiters are valid</param>
+            <param name="dlimsForExt">A list of delimiter objects</param>
+        </member>
+        <member name="M:Sloc.CommentDelimiters.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Sloc.CommentDelimiters.CommentDelimitersForFile(System.String)">
+            <summary>
+            Determine the ways in which comment lines are delimited, based on the file name.
+            </summary>
+            <param name="fileName">The file name.</param>
+            <returns>A list of delimiters. If a list value has false for isWrapping, then any code line whose
+            first non-white space is delimStart is a comment line. If isWrapping is true, then
+            delimStart starts a comment section and delimEnd ends the comment section,
+            allowing for multi-line comments.</returns>
+        </member>
+        <member name="T:Sloc.LOCCElement">
+            <summary>
+            A class for managing the specification of comment delimiters in the app.config file.
+            </summary>
+        </member>
+        <member name="T:Sloc.LOCCElementCollection">
+            <summary>
+            A class for managing the specification of comment delimiters in the app.config file.
+            </summary>
+        </member>
+        <member name="T:Sloc.LOCCConfigurationSection">
+            <summary>
+            A class for managing the specification of comment delimiters in the app.config file.
+            </summary>
+        </member>
+        <member name="T:Sloc.Resources.Strings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Sloc.Resources.Strings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Sloc.Resources.Strings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Sloc.Resources.Strings.resTotal">
+            <summary>
+              Looks up a localized string similar to TOTAL.
+            </summary>
+        </member>
+        <member name="T:Sloc.Sloc">
+            <summary>
+            A class library for counting lines of code in selected files under a root folder.
+            Usage: instantiate the class with the constructor, then set RootFolder and FileExtensions.
+            Invoke FolderSloc to count the lines in the files inside RootFolder. FolderSloc updates
+            NumFiles and CurFile while running, so if invoked asynchronously, these can be queried for status.
+            </summary>
+        </member>
+        <member name="M:Sloc.Sloc.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Sloc.Sloc.RootFolder">
+            <summary>
+            The folder under which to find files whose lines should be counted.
+            The default is c:, and the default file extensions list is a long list, so
+            the default call to FolderSloc could take a while or throw due to locked
+            Windows folders.
+            </summary>
+        </member>
+        <member name="P:Sloc.Sloc.FileExtensions">
+            <summary>
+            Get/set the or-bar delimited extensions of files that should be counted.
+            If an element EXT does not start with *., it will be treated as *.EXT,
+            so the list can be provided (for example) as cs|aspx|xml . The default is a large set
+            of common code file extensions.
+            </summary>
+            <exception cref="T:System.ArgumentException">Improperly formatted list of extensions.</exception>
+        </member>
+        <member name="P:Sloc.Sloc.RawFileNames">
+            <summary>
+            The list of files in the folder and its subfolders
+            </summary>
+        </member>
+        <member name="P:Sloc.Sloc.NumFiles">
+            <summary>
+            Get the number of files to be counted.
+            </summary>
+        </member>
+        <member name="P:Sloc.Sloc.CurFile">
+            <summary>
+            Get the number of the file currently being counted, somewhere between zero and NumFiles.
+            </summary>
+        </member>
+        <member name="P:Sloc.Sloc.CurExtension">
+            <summary>
+            Get the extension currently being processed.
+            </summary>
+        </member>
+        <member name="M:Sloc.Sloc.FolderSloc(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Count the LOC in the files under RootFolder.
+            </summary>
+            <param name="worker">A background worker (or null), which can request cancelation.</param>
+            <param name="e">The background worker event args (or null).</param>
+            <returns>A list of file information objects. The first element in the array will be the total for the
+            rest of the elements. In case of a cancelation, zero elements will be returned. A folder with no
+            countable files will return one element for the totals showing zero lines of code.</returns>
+            <exception cref="T:System.ArgumentException">Problems with the provided folder.</exception>
+        </member>
+        <member name="M:Sloc.Sloc.CollectFiles(System.ComponentModel.BackgroundWorker)">
+            <summary>
+            Collect the list of files according to rootFolder and fileExtensions.
+            </summary>
+            <param name="worker">The background worker, which can request cancelation.</param>
+            <returns>An array of string file names (full paths).</returns>
+        </member>
+        <member name="M:Sloc.Sloc.FileSloc(System.String)">
+            <summary>
+            Count the lines of code for a file.
+            </summary>
+            <param name="fName">Full path to a file</param>
+            <returns>SLOC info</returns>
+        </member>
+        <member name="M:Sloc.Sloc.CommentState(System.String,Sloc.CommentDelimiters.ExtensionDelimiters[],Sloc.CommentDelimiters.CommentStateInfo)">
+            <summary>
+            Examine a line to see how it conforms to its file's comment delimiters.
+            </summary>
+            <param name="fileLine">The line of the code file currently being examined.</param>
+            <param name="commentSpecs">A list of descriptors that tell how a comment can begin
+            and end for the current file.</param>
+            <param name="prevCSI">The state of the previous line.</param>
+            <returns>A new comment state.</returns>
+        </member>
+        <member name="T:Sloc.SlocFileReport">
+            <summary>
+            A class to report the results of counting the lines in a file
+            </summary>
+        </member>
+        <member name="M:Sloc.SlocFileReport.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Sloc.SlocFileReport.#ctor(System.String,System.String)">
+            <summary>
+            Reconstruct an instance given a full path and a summary value that was previously
+            produced by the Summary property. Call this constructor when a program called Sloc
+            and dumped a summary into a text file, and now that file has been read back in and
+            the summary needs to be parsed.
+            </summary>
+            <param name="fullFilePath">A full path name, parsed to get the folder and name.</param>
+            <param name="summary">A summary as produced by the Summary property.</param>
+        </member>
+        <member name="M:Sloc.SlocFileReport.#ctor(System.IO.StreamReader,System.Char)">
+            <summary>
+            Construct an instance by reading a record from the provided stream
+            and splitting the string according to the provided delimiter.
+            The record must be of the form provided by SummaryDelimited.
+            Before calling this constructor, call Peek() on the stream, and if
+            that returns less than zero, then the stream has no more data.
+            </summary>
+            <param name="sr">A stream from which to read a record.</param>
+            <param name="delimiter">Separate character for the fields, such as a comma.</param>
+        </member>
+        <member name="P:Sloc.SlocFileReport.FolderName">
+            <summary>
+            The folder under which the file whose lines are counted is located.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.FileName">
+            <summary>
+            The file name.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.FullPath">
+            <summary>
+            FolderName plus backslash plus FileName
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.LinesTotal">
+            <summary>
+            Total number of lines in the file. Subtract LinesBlank and LinesComment to get
+            the number of source lines of code.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.LinesBlank">
+            <summary>
+            Number of blank lines in the file.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.LinesComment">
+            <summary>
+            Number of comment lines in the file.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.IsTotal">
+            <summary>
+            True if this instance represents a total of other instances.
+            </summary>
+        </member>
+        <member name="P:Sloc.SlocFileReport.Summary">
+            <summary>
+            Get a single string that summarizes the results for the file.
+            Generally not useful until the file has been processed and all the
+            counts are real.
+            </summary>
+        </member>
+        <member name="M:Sloc.SlocFileReport.SummaryDelimited(System.Char)">
+            <summary>
+            Prepare a single string that summarizes the results. Each field is delimited
+            by the provided string, so if you want to send the output to a comma separated
+            values (CSV) file, provide a comma as the delimiter.
+            Generally not useful until the code file has been processed and all the counts are real.
+            </summary>
+            <param name="delimiter">The char to place between values, such as a comma.</param>
+            <returns>total, comments, blanks, sloc, fullPath (delimited).</returns>
+        </member>
+        <member name="M:Sloc.SlocFileReport.SummaryDelimitedHeader(System.Char)">
+            <summary>
+            Prepare a string of column names, delimited by the provided string,
+            corresponding to the columns returned by SummaryDelimited().
+            </summary>
+            <param name="delimiter">The char to place between values, such as a comma.</param>
+            <returns>Total,Comment,Blank,SLOC,Name (using the provided delimiter char).</returns>
+        </member>
+    </members>
+</doc>

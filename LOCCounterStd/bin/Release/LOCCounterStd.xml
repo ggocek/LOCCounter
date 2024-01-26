@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOCCounterStd</name>
+    </assembly>
+    <members>
+        <member name="T:LOCCounterStd.IOutputType">
+            <summary>
+            An inheritable class for producing save-able output from
+            data procduced by the Sloc class.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.IOutputType.ShortTypeName">
+            <summary>
+            Get/set the name for the type of output to be produced.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.IOutputType.Loc">
+            <summary>
+            Get/set the information (about the lines of code) to be processed.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.IOutputType.NewLine">
+            <summary>
+            Get/set the newline string to append to each line.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.IOutputType.Dump">
+            <summary>
+            Process the contents of Loc
+            </summary>
+            <returns>Text in a form appropriate for ShortTypeName.</returns>
+        </member>
+        <member name="T:LOCCounterStd.OutputTypeCsv">
+            <summary>
+            A class for producing save-able comma separated values output from
+            data procduced by the Sloc class.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeCsv.ShortTypeName">
+            <summary>
+            Get/set the name for the type of output to be produced.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeCsv.Loc">
+            <summary>
+            Get/set the information (about the lines of code) to be processed.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeCsv.NewLine">
+            <summary>
+            Get/set the newline string to append to each line.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.OutputTypeCsv.Dump">
+            <summary>
+            Process the contents of Loc
+            </summary>
+            <returns>Text in a form appropriate for ShortTypeName.</returns>
+        </member>
+        <member name="T:LOCCounterStd.OutputTypeRss">
+            <summary>
+            A class for producing save-able RSS 2.0 output from
+            data procduced by the Sloc class.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeRss.ShortTypeName">
+            <summary>
+            Get/set the name for the type of output to be produced.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeRss.Loc">
+            <summary>
+            Get/set the information (about the lines of code) to be processed.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeRss.NewLine">
+            <summary>
+            Get/set the newline string to append to each line.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.OutputTypeRss.Dump">
+            <summary>
+            Process the contents of Loc
+            </summary>
+            <returns>Text in a form appropriate for ShortTypeName.</returns>
+        </member>
+        <member name="T:LOCCounterStd.OutputTypeTxt">
+            <summary>
+            A class for producing save-able plaintext output from
+            data procduced by the Sloc class.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeTxt.ShortTypeName">
+            <summary>
+            Get/set the name for the type of output to be produced.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeTxt.Loc">
+            <summary>
+            Get/set the information (about the lines of code) to be processed.
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.OutputTypeTxt.NewLine">
+            <summary>
+            Get/set the newline string to append to each line.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.OutputTypeTxt.Dump">
+            <summary>
+            Process the contents of Loc
+            </summary>
+            <returns>Text in a form appropriate for ShortTypeName.</returns>
+        </member>
+        <member name="T:LOCCounterStd.CommandLineHelp">
+            <summary>
+            A class for providing help at the console.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.CommandLineHelp.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.CommandLineHelp.FriendlyHelp">
+            <summary>
+            Display help info when the app was started with the command line.
+            </summary>
+        </member>
+        <member name="T:LOCCounterStd.CommandLineLicense">
+            <summary>
+            A class for providing licensing at the console.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.CommandLineLicense.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.CommandLineLicense.FriendlyLicense">
+            <summary>
+            Display license info when the app was started with the command line.
+            </summary>
+        </member>
+        <member name="T:LOCCounterStd.VersionInfo">
+            <summary>
+            A class for providing version info.
+            </summary>
+        </member>
+        <member name="M:LOCCounterStd.VersionInfo.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:LOCCounterStd.VersionInfo.FriendlyVersionInfo">
+            <summary>
+            Geta friendly string indicating the version.
+            </summary>
+        </member>
+    </members>
+</doc>
