@@ -1,0 +1,42 @@
+F:\z-vis-stud-projects\LOCCounter\Sloc\bin\Debug\Sloc.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\bin\Debug\Sloc.pdb
+F:\z-vis-stud-projects\LOCCounter\Sloc\bin\Debug\es\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\bin\Debug\fr\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\ResolveAssemblyReference.cache
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.resources
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.es.resources
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.fr.resources
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.csproj.GenerateResource.Cache
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\es\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\fr\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.dll
+F:\z-vis-stud-projects\LOCCounter\Sloc\obj\Debug\Sloc.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\bin\Debug\Sloc.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\bin\Debug\Sloc.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\bin\Debug\es\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\bin\Debug\fr\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.es.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.fr.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.csproj.GenerateResource.Cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\es\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\fr\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\Sloc\obj\Debug\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\Sloc.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\es\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\fr\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.csproj.AssemblyReference.cache
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.resources
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.es.resources
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.Resources.Strings.fr.resources
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.csproj.GenerateResource.cache
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.csproj.CoreCompileInputs.cache
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\es\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\fr\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.dll
+C:\Users\gary\source\repos\LOCCounter\Sloc\obj\Debug\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\gpl.txt
+C:\Users\gary\source\repos\LOCCounter\Sloc\bin\Debug\license.txt
