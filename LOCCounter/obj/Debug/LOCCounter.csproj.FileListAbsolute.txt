@@ -1,0 +1,79 @@
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe.config
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\es\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\fr\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\Sloc.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\Sloc.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\es\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\fr\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\ResolveAssemblyReference.cache
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.AboutLocCounter.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.ExtensionsForm.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Help.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.LOCCountForm.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Properties.Resources.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.es.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.fr.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.GenerateResource.Cache
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\es\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\fr\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\license.txt
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Debug\readme.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe.config
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\license.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\readme.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\LOCCounter.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\es\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\fr\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\Sloc.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\Sloc.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\es\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Debug\fr\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.AboutLocCounter.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.ExtensionsForm.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Help.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.LOCCountForm.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Properties.Resources.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.es.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.fr.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.GenerateResource.Cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\es\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Debug\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\license.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\readme.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe.config
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\LOCCounter.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\LOCCounter.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\es\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\Sloc.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\es\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\fr\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.AssemblyReference.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.AboutLocCounter.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.ExtensionsForm.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Help.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.LOCCountForm.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Properties.Resources.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.es.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.Resources.Strings.fr.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.GenerateResource.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.CoreCompileInputs.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\es\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.csproj.CopyComplete
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Debug\LOCCounter.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\gpl.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Debug\readme-2024-01-26-1.txt

@@ -1,0 +1,82 @@
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe.config
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\es\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\fr\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\Sloc.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\Sloc.pdb
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\Sloc.xml
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\es\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\fr\Sloc.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\ResolveAssemblyReference.cache
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.AboutLocCounter.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.ExtensionsForm.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Help.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.LOCCountForm.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Properties.Resources.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.es.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.fr.resources
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.GenerateResource.Cache
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\es\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\fr\LOCCounter.resources.dll
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.exe
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\license.txt
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\readme.txt
+F:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.xml
+G:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe.config
+G:\z-vis-stud-projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.xml
+G:\z-vis-stud-projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe.config
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.xml
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\license.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\readme.txt
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\es\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\fr\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\Sloc.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\Sloc.pdb
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\Sloc.xml
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\es\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\bin\Release\fr\Sloc.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.AboutLocCounter.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.ExtensionsForm.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Help.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.LOCCountForm.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Properties.Resources.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.es.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.fr.resources
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.GenerateResource.Cache
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\es\LOCCounter.resources.dll
+C:\Documents and Settings\Gary\My Documents\Visual Studio 2008\Projects\LOCCounter\LOCCounter\obj\Release\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\license.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\readme.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe.config
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\LOCCounter.xml
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\LOCCounter.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\es\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\Sloc.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\Sloc.pdb
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\Sloc.xml
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\es\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\fr\Sloc.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.AssemblyReference.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.AboutLocCounter.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.ExtensionsForm.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.Help.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.LOCCountForm.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.Properties.Resources.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.es.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.Resources.Strings.fr.resources
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.GenerateResource.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.CoreCompileInputs.cache
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\es\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\fr\LOCCounter.resources.dll
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.csproj.CopyComplete
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\obj\Release\LOCCounter.exe
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\gpl.txt
+C:\Users\gary\source\repos\LOCCounter\LOCCounter\bin\Release\readme-2024-01-26-1.txt

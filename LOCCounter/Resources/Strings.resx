@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+	Copyright (c) 2011, Gary Gocek.
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="resAbout" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="resBlank" xml:space="preserve">
+    <value>Blank</value>
+  </data>
+  <data name="resBrowse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="resBrowseElipsis" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="resCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="resComments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="resContents" xml:space="preserve">
+    <value>&amp;Contents</value>
+  </data>
+  <data name="resCountFolder" xml:space="preserve">
+    <value>Count LOC in and under this folder:</value>
+  </data>
+  <data name="resCountLines" xml:space="preserve">
+    <value>Count Lines</value>
+  </data>
+  <data name="resCountLOC" xml:space="preserve">
+    <value>&amp;Count Lines</value>
+  </data>
+  <data name="resDirectory" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="resExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="resFile" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="resFileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="resFileType" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="resHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="resLines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="resSourceLOC" xml:space="preserve">
+    <value>Source LOC</value>
+  </data>
+  <data name="resUseStd" xml:space="preserve">
+    <value>Use   LOCCounterStd.exe   to send output to a file.</value>
+  </data>
+  <data name="resAddRemoveExt" xml:space="preserve">
+    <value>Add and remove file extensions...</value>
+  </data>
+  <data name="resApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="resExtensions" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="resExtFormDeselectAll" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="resExtFormHeader" xml:space="preserve">
+    <value>File extensions to be processed:</value>
+  </data>
+  <data name="resExtFormSelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+	<data name="resHelp00" xml:space="preserve">
+		<value>LOCCounter.exe, Sloc.dll and LOCCounter.exe.config should all be in the same folder.</value>
+	</data>
+	<data name="resHelp01" xml:space="preserve">
+		<value>A blank line contains only white space. A comment line begins with a comment delimiter or is a line between comment delimiters (according to the file extension as defined in CommentDelimiters.xml). A line that begins as a comment but contains code is considered to be a comment, e.g.,</value>
+	</data>
+	<data name="resHelp02" xml:space="preserve">
+		<value>/* cmnt */ x = 1;</value>
+	</data>
+	<data name="resHelp03" xml:space="preserve">
+		<value>A line that begins with code but contains a comment is considered to be code. Lines that are not blank and not commented are considered Source Lines of Code (SLOC). A line that begins with code and then (on the same line) starts (but does not terminate) a multi-line comment will cause incorrect results, e.g.,</value>
+	</data>
+	<data name="resHelp04" xml:space="preserve">
+		<value>x = 1; /* Start comment</value>
+	</data>
+	<data name="resHelp05" xml:space="preserve">
+		<value>   this counted as code because previous line starts with code.</value>
+	</data>
+	<data name="resHelp06" xml:space="preserve">
+		<value>This program first collects the list of files in and under a root folder with any extension in the selectable list. LOCCounter.exe.config may be modified to handle more file types. For unknown file types, the program assumes that comments are delimited as with the C programming language (//, /*, */).</value>
+	</data>
+	<data name="resHelp07" xml:space="preserve">
+		<value>HTML files may use comments to hide embedded javascript from non-compliant browsers. Those script lines will be treated as comments.</value>
+	</data>
+	<data name="resHelp08" xml:space="preserve">
+		<value>Performance can be slow for files with tens of thousands of lines, so if you have folders full of huge XML data files, you could see long execution times. Try removing some of the file extensions from the list. The Cancel button is generally ineffective while the program first begins to collect the list of files. If your source tree is very large, the collection process can take a while.</value>
+	</data>
+	<data name="resHelp09" xml:space="preserve">
+		<value>Once a directory has been counted, a file can be opened in Notepad by clicking with the right mouse button.</value>
+	</data>
+	<data name="resHelp10" xml:space="preserve">
+		<value>To view the subtotals for a group of files, select any items in the list with the left mouse button, then use the right mouse button with the menu command. To view the subtotals for an extension, first sort the File Type column to make it easy to select the files. Use CTRL-C to copy the contents of the popup window to the clipboard.</value>
+	</data>
+	<data name="resHelp11" xml:space="preserve">
+		<value>A 'feature' of Windows is that files with extensions longer than 3 characters have a short 8.3 name with an extension that has three characters. For example, when processing HTM files, HTML files may also be processed. This program does not correct for that.</value>
+	</data>
+	<data name="resHelp12" xml:space="preserve">
+		<value>Use 'LOCCounterStd.exe /?' at the command line to see command line options.</value>
+	</data>
+</root>
